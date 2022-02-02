@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Pac-man</title>
+	<style>
+.rotated_270 {
+  transform: rotate(270deg); /* Equal to rotateZ(270deg) */
+  #background-color: pink;
+}
+
+.rotated_180 {
+  transform: rotate(180deg); /* Equal to rotateZ(180deg) */
+  #background-color: pink;
+}
+
+.rotated_90 {
+  transform: rotate(90deg); /* Equal to rotateZ(90deg) */
+  #background-color: pink;
+}
+
+.rotated_zero {
+  transform: rotate(0deg); /* Equal to rotateZ(0deg) */
+  #background-color: pink;
+}
+	</style>
+  </head>
+  <body>
+    <img
+      id="PacMan"
+      src="./images/PacMan1.png"
+	  width = "200px"
+      onclick="Run()"
+      style="position: absolute"
+	  class="rotated_zero"
+    />
+
+    <!-- DO NOT CHANGE THIS LINE OF CODE -->
+    <script src="./js/pacman.js"></script>
+  </body>
+</html>
